@@ -3,8 +3,10 @@
 # the transition from C to Python syntax.
 # Coder:
 # Date:
+ows = int(input("Enter Rows: "))
 
-print("--- Pattern Printer ---\n")
-
+for i in range(1, rows + 1):
+    print("*" * i)
 
 # Write your code here
+
