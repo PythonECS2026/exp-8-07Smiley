@@ -3,10 +3,12 @@
 # the transition from C to Python syntax.
 # Coder:
 # Date:
-ows = int(input("Enter Rows: "))
+n = int(input())
 
-for i in range(1, rows + 1):
-    print("*" * i)
-
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
 # Write your code here
+
 
